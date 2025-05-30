@@ -11,6 +11,9 @@ header {
   background-color: #A50044;
   padding: 30px 20px;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 header h1 {
@@ -19,10 +22,9 @@ header h1 {
 }
 
 header img {
-  display: block;
-  margin: 10px auto 0 auto;
   max-width: 150px;
   height: auto;
+  margin-top: 10px;
 }
 
 nav {
